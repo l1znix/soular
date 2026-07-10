@@ -1,13 +1,12 @@
-# slskd
+# soular
 
-[![Build](https://img.shields.io/github/actions/workflow/status/slskd/slskd/ci.yml?branch=master&logo=github)](https://github.com/slskd/slskd/actions/workflows/ci.yml)
-[![Docker Pulls](https://img.shields.io/docker/pulls/slskd/slskd?logo=docker)](https://hub.docker.com/r/slskd/slskd)
-[![GitHub all releases](https://img.shields.io/github/downloads/slskd/slskd/total?logo=github&color=brightgreen)](https://github.com/slskd/slskd/releases)
-[![Contributors](https://img.shields.io/github/contributors/slskd/slskd?logo=github)](https://github.com/slskd/slskd/graphs/contributors)
-[![Discord](https://img.shields.io/discord/971446666257391616?label=Discord&logo=discord)](https://slskd.org/discord)
-[![Matrix](https://img.shields.io/badge/Matrix-%3F%20online-na?logo=matrix&color=brightgreen)](https://slskd.org/matrix)
+A modern client-server application for the [Soulseek](https://www.slsknet.org/news/) file-sharing network. soular is a fork of [slskd](https://github.com/slskd/slskd).
 
-A modern client-server application for the [Soulseek](https://www.slsknet.org/news/) file-sharing network.
+## What soular is about
+
+- **We take user experience seriously.** This is not a stub developer interface with serious bugs (slskd), and this is not a pincushion with an exploded scope (slskdN).
+- **We respect the original work.** [jpdillingham](https://github.com/jpdillingham) has done an amazing job making sure Soulseek.NET and slskd are as rock solid as possible.
+- **We build on top, not into.** Out of that respect, our feature additions should never break directly into the backend server-side logic of slskd — instead, we do those kinds of things via API integrations, as intended.
 
 ## Features
 
